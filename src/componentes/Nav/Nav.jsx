@@ -16,7 +16,7 @@ const Nav = () => {
 
         <div className={styles.brand}>
           <h2>
-            NOSSO<span>SOL AAAAAAAAAAAA</span>
+            NOSSO<span>SOL</span>
           </h2>
           <p>painéis solares</p>
         </div>
