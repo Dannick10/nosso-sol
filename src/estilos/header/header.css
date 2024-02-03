@@ -4,6 +4,7 @@ header{
     
     background-size: cover;
      background-position: center;
+     z-index: -1;
 }
 
 .header_container{
@@ -11,7 +12,6 @@ header{
     display: flex;
     font-family: Changa One, 'arial';
     font-size: 2em;
-
     background-color: var(--corDois);
 
 }
