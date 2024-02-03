@@ -8,6 +8,7 @@ import header_world from './img/header_world.svg'
 
 //Componentes
 import Nav from './componentes/Nav/Nav'
+import Footer from './componentes/Nav/Footer'
 
 function App() {
 
@@ -23,6 +24,17 @@ function App() {
         </div>
       </header>
      
+
+
+
+
+
+
+
+
+
+
+     <Footer/>
     </>
   )
 }
