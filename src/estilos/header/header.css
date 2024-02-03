@@ -1,8 +1,10 @@
 header{
+  
     position: relative;
     background-image: url('../../img/Rectangle.svg');
     background-size: cover;
      background-position: center;
+     z-index: -1;
 }
 
 .header_container{

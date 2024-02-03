@@ -10,8 +10,9 @@ const Nav = () => {
     <>
       <nav className={styles.nav_container}>
         <i
-          class="fa-solid fa-bars"
-          onClick={() => setMenuContainer(1)}
+          className={menuContainer ? 'fa-solid fa-x' : 'fa-solid fa-bars'}
+
+          onClick={() => menuContainer ? setMenuContainer(null) : setMenuContainer(1)}
         ></i>
 
         <div className={styles.brand}>
@@ -28,6 +29,7 @@ const Nav = () => {
             className={styles.overlay_menu}
             onClick={() => setMenuContainer(null)}
           ></div>
+
           <div className={styles.menu}>
           
             <h3> <i class="fa-solid fa-house"></i> INICIO</h3>
