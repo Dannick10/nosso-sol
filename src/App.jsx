@@ -9,6 +9,7 @@ import Reactangle from './img/Rectangle.svg'
 
 //Componentes
 import Nav from './componentes/Nav/Nav'
+import Footer from './componentes/Nav/Footer'
 
 function App() {
 
@@ -26,6 +27,17 @@ function App() {
         </div>
       </header>
      
+
+
+
+
+
+
+
+
+
+
+     <Footer/>
     </>
   )
 }
