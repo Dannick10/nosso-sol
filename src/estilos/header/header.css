@@ -1,5 +1,50 @@
-
 header{
+    position: relative;
+    background-image: url('../../img/Rectangle.svg');
+    background-size: cover;
+     background-position: center;
+}
+
+.header_container{
+    padding: 2.9em 0.2em 0.1em;
     display: flex;
-    
+    font-family: Changa One, 'arial';
+    font-size: 2em;
+
+    background-color: var(--corDois);
+
+}
+
+img{
+    width: 1.8em;
+}
+
+.header_title{
+    color: white;
+    font-size: 0.8em;
+    width: 38em;
+}
+
+.header_title span{
+    color: var(--corquatro);
+}
+
+.header_svg{
+ 
+    position: relative;
+    width: 16em;
+    height: 5em;
+}
+
+.svg_world{
+    font-size: 0.9em;
+    position: absolute;
+    right: 0;
+}
+
+.svg_painel{
+    font-size: 1.8em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
