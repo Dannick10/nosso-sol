@@ -17,7 +17,7 @@ function App() {
     <>
      <Nav/>
 
-      <header>
+      <header id='header'>
         <div className='header_container'>  
           <div className="header_title">NÃO PAGUE MAIS UM ABSURDO NA SUA CONTA DE <span>ENERGIA</span>.</div>
           <div className="header_svg">
@@ -27,9 +27,35 @@ function App() {
         </div>
       </header>
      
+      <main>
+        
+      <section id='showcase_container'>
+        <div className="subtitle">
+      <p>Nos últimos anos os brasileiros têm investido mais em energia limpa. Além de ser mais barato para o bolso, quem investe em energia solar acaba investindo na sua independência energética.</p>
+        </div>
 
+     <span className='line'></span>
 
+        <div className="img_cards">
 
+            <div className='card'>
+              <img src="" alt=""/>
+              </div>
+
+            <div className='card'>
+              <img src="" alt=""/>
+              </div>
+
+          </div>
+      </section>
+
+      <section className='info_enegy'>
+        <div className="title">
+          <h2>VOCÊ GERA A SUA PRÓPRIA ENERGIA, PAGA MENOS TARIFAS E SOBRA MAIS DINHEIRO NO SEU BOLSO.</h2>
+        </div>
+      </section>
+
+      </main>
 
 
 
