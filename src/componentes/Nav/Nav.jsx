@@ -34,6 +34,14 @@ const Nav = () => {
             <h3> <i class="fa-solid fa-phone"></i> CONTATO</h3>
             <h3> <i class="fa-solid fa-chart-simple"></i> SIMULAR</h3>
             <h3> <i class="fa-solid fa-chart-simple"></i>  INFORMAÇÕES</h3>
+
+          
+            <div className={styles.social}>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            </div>
           </div>
         </>
       )}
