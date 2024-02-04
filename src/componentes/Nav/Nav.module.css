@@ -78,7 +78,7 @@
     width: 300px;
     height: 100vh;
 
-    background-color: #15435B;
+    background-color: #15435b;
     
     user-select: none;
 
@@ -106,14 +106,45 @@
     color: white;
     padding-top: 40px;
     cursor: pointer;
+    position: relative;
+    transition: 0.1s;
+    
 }
 
 .menu h3 > i{
     color: #FDD82E;
+    
 }
 
 .menu h3:hover{
    scale: 1.1;
+}
+
+.menu h3::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    border: 2px solid white;
+    opacity: 0;
+   
+}
+
+.menu h3:hover::before{
+    content: '';
+    animation-name: hover;
+    animation-duration: 0.8s;
+    animation-iteration-count: 1;
+    width: 100%;
+    opacity: 1;
+}
+
+@keyframes hover{
+    0%{
+        width: 0;
+    }
+   100%{
+    width: 100%;   
+   }
 }
 
 .social i{
