@@ -110,9 +110,29 @@ text-align: center;
     gap: 2em;
 }
 
-.card{
+.card-1, .card-2{
     width: 85vw;
     height: 38vh;
     background-color: #D9D9D9;
     border-radius: 1.2em;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.404);
+    transition: all 0.5s;
+    
+}
+
+.card-1{
+    background-image: url(https://borealsolar.com.br/blog/wp-content/uploads/2016/10/7-vantagens-de-instalar-paineis-solares-fotovoltaicos-em-sua-casa-800x480.jpg);
+}
+
+.card-2{
+    background-image: url(https://s3.us-east-2.amazonaws.com/legacy.portalsolar.com.br/Content/EditorImages/images/Usina%20solar%20flutuante.jpg);
+}
+
+.card-1:hover, .card-2:hover{
+    scale: 1.05;
 }

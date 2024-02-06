@@ -38,21 +38,21 @@ function App() {
 
         <div className="img_cards">
 
-            <div className='card'>
-              <img src="" alt=""/>
+            <div className='card-1'>
+             
               </div>
 
-            <div className='card'>
-              <img src="" alt=""/>
+            <div className='card-2'>
+             
               </div>
 
           </div>
       </section>
 
       <section className='info_enegy'>
-        <div className="title">
+        
           <h2>VOCÊ GERA A SUA PRÓPRIA ENERGIA, PAGA MENOS TARIFAS E SOBRA MAIS DINHEIRO NO SEU BOLSO.</h2>
-        </div>
+      
       </section>
 
       </main>
