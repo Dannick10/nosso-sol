@@ -68,6 +68,7 @@
 }
 
 .menu{
+    z-index: 2;
     position: fixed;
     display: flex;
     top: 4.1em;

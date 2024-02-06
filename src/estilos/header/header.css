@@ -239,6 +239,7 @@ text-align: center;
 }
 
 .carrosel-descricao::before{
+    z-index: 1;
     position: relative;
     top: 5px;
     content: '"';
@@ -249,6 +250,7 @@ text-align: center;
 }
 
 .carrosel-descricao::after{
+    z-index: 1;
     content: '"';
     font-size: 1.9em;
     position: relative;
