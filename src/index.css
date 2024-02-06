@@ -3,6 +3,8 @@
     padding: 0;
 
     --corUm: #000;
+    
+    scroll-behavior: smooth;
 }
 
 /* Changa One */

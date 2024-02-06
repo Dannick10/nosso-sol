@@ -1,5 +1,5 @@
 .nav_container{
-    z-index: 1;
+    z-index: 4;
     position: fixed;
     top: 0;
     display: flex;
@@ -60,7 +60,7 @@
 /* Menu Container */
 
 .overlay_menu{
-    
+    z-index: 2;
     position: fixed;
     width: 100vw;
     height: 100vh;

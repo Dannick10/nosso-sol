@@ -6,13 +6,17 @@ import "./estilos/header/header.css";
 import header_painel from "./img/header_painel.svg";
 import header_world from "./img/header_world.svg";
 import Reactangle from "./img/Rectangle.svg";
-import sun from "./img/sun.svg";
+import wave from "./img/wave.png";
 
 //Componentes
 import Nav from "./componentes/Nav/Nav";
 import Footer from "./componentes/Nav/Footer";
 
 function App() {
+  function scrollHeader() {
+    window.scroll(0, 300);
+  }
+
   return (
     <>
       <Nav />
@@ -37,11 +41,17 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="svg"></div>
+        <div
+          onClick={() => scrollHeader()}
+          className="arrow-down"
+        >
+          <i class="fa-solid fa-arrow-down"></i>
+        </div>
       </header>
 
       <main>
         <section id="showcase_container">
+          <h3>Enérgia Solar</h3>
           <div className="subtitle">
             <p>
               Nos últimos anos os brasileiros têm investido mais em energia
@@ -51,6 +61,7 @@ function App() {
           </div>
 
           <span className="line"></span>
+          <path d="M52,253 C246,364 452,106 582,292" />
 
           <div className="img_cards">
             <div className="card-1"></div>

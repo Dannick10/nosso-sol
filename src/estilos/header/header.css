@@ -2,65 +2,46 @@
 
 header{
     z-index: -1;
-    position: relative;
     background-size: cover;
      background-position: center;
-     z-index: -1;
      padding-bottom: 30px;
+    
 
 }
 
 
 .header_container{
+    
     padding: 2.9em 0.2em 0.1em;
     display: flex;
     font-family: Changa One, 'arial';
     font-size: 2.3em;
-    height: 4em;
+    height: 5em;
+
+    background-color: var(--corDois);
+    border-bottom: 8px solid var(--corquatro);
+    
+
    
 }
 
-.svg{
-    top: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: var(--corDois);
+
+.svg_painel, .svg_world{
+    z-index: 1;
+
 }
 
-.svg::before{
-    content: '';
-    position: absolute;
-    background-color: var(--bodyColor);
-    width: 50%;
-    height: 20%;
-    border-radius: 55% 47%;
-    bottom: -30px;
-    right: 0;
-    box-shadow: inset -2px 3px 1px rgba(0, 0, 0, 0.39)
-}
 
-.svg::after{
-    content: '';
-    position: absolute;
-    background-color: var(--corDois);
-    width: 61%;
-    height: 28%;
-    border-radius: 50% 50%;
-    bottom: -30px;
-    left: -10%;
-    filter: drop-shadow(1px 4px 0.8px rgba(0, 0, 0, 0.39));
-}
 
 img{
+    
     width: 1.8em;
 
 }
 
 .header_title{
     color: white;
-    font-size: 0.8em;
+    font-size: 0.88em;
     width: 9em;
 }
 
@@ -79,16 +60,37 @@ img{
 }
 
 .svg_world{
+    
+    display: inline;
     font-size: 0.9em;
-    position: absolute;
-    right: 0;
+    position: relative;
+    right: -70px;
 }
 
 .svg_painel{
+    
+    display: inline;
     font-size: 1.8em;
-    position: absolute;
+    position: relative;
     bottom: 0;
-    left: 0;
+    right: 0;
+}
+
+.arrow-down{
+    user-select: none;
+    position: relative;
+    top: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--corquatro);
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+
+    font-size: 1.5em;
+    cursor: pointer;
 }
 
 #showcase_container{
@@ -96,6 +98,13 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#showcase_container h3{
+    font-family: Changa One, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: var(--corDois);
+    margin-bottom: 10px;
 }
 
 .subtitle p{
