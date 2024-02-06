@@ -130,52 +130,60 @@ function App() {
               benefícios contínuos nos próximos anos.
             </p>
           </div>
+
+          
         </section>
 
         <section className="c-depoimentos">
-          <div className="d1">
-            <div className="photo-name">
-              <span
-                className="img"
-                style={{
-                  backgroundImage: `url(${Luciana})`,
-                }}
-              ></span>
+         
+         <div className="d1">
+           <div className="photo-name">
+             <span
+               className="img"
+               style={{
+                 backgroundImage:
+                   `url(${Luciana})`,
+               }}
+             ></span>
 
-              <div className="name-carrossel">
-                <h3>Luciana Santos</h3>
-                <p>cliente real</p>
-              </div>
-            </div>
+             <div className="name-carrossel">
+               <h3>Luciana Santos</h3>
+               <p>cliente real</p>
+             </div>
+               
 
-            <hr className="line-card" />
+           </div>
 
-            <p className="carrosel-descricao">
-              Para quem está pensando em adotar a energia solar, eu não posso
-              enfatizar o suficiente o quão gratificante foi para mim. Essa
-              decisão não só beneficia o meio ambiente, mas também tem um
-              impacto financeiro duradouro.
-            </p>
-          </div>
-        </section>
+           <hr className="line-card"/>
 
-        <section className="c-depoimentos">
-          <div className="d1">
-            <div className="photo-name">
-              <span
-                className="img"
-                style={{
-                  backgroundImage: `url(${Felipe})`,
-                }}
-              ></span>
+           <p className="carrosel-descricao">Para quem está pensando em adotar a energia solar, eu não posso enfatizar o suficiente o quão gratificante foi para mim. Essa decisão não só beneficia o meio ambiente, mas também tem um impacto financeiro duradouro. Estou incrivelmente feliz por ter tomado esse caminho e estou ansiosa para experimentar os benefícios contínuos nos próximos anos. A transição para a energia solar foi uma escolha inteligente e recompensadora em todos os aspectos.</p>
+         </div>
 
-              <div className="name-carrossel">
-                <h3>Felipe Oliveira</h3>
-                <p>cliente real</p>
-              </div>
-            </div>
+         
+       </section>
 
-            <hr className="line-card" />
+       <section className="c-depoimentos">
+         
+         <div className="d1">
+           <div className="photo-name">
+             <span
+               className="img"
+               style={{
+                 backgroundImage:
+                   `url(${Felipe})`,
+               }}
+             ></span>
+
+             <div className="name-carrossel">
+               <h3>
+Felipe Oliveira</h3>
+               <p>cliente real</p>
+             </div>
+               
+
+           </div>
+
+           <hr className="line-card"/>
 
             <p className="carrosel-descricao">
               Estou extremamente satisfeito por ter feito essa decisão e estou
