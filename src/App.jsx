@@ -54,7 +54,7 @@ function App() {
          
             <h2 className='title-1'>VOCÊ GERA A SUA PRÓPRIA ENERGIA, PAGA MENOS TARIFAS E SOBRA MAIS DINHEIRO NO SEU BOLSO<span>.</span></h2>
 
-            p.
+            <p className="description-1">Temos alguns depoimentos muito legais que mostram que esse é o futuro para quem gosta de ter grana no bolso e de quebra ainda ajuda o meio ambiente.</p>
           
       
       </section>

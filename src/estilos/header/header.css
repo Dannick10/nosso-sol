@@ -104,6 +104,8 @@ text-align: center;
     width: 60%;
 }
 
+/* Imagens */
+
 .img_cards{
     display: flex;
     flex-direction: column;
@@ -125,6 +127,8 @@ text-align: center;
     
 }
 
+
+
 .card-1{
     background-image: url(https://borealsolar.com.br/blog/wp-content/uploads/2016/10/7-vantagens-de-instalar-paineis-solares-fotovoltaicos-em-sua-casa-800x480.jpg);
 }
@@ -137,6 +141,8 @@ text-align: center;
     scale: 1.05;
 }
 
+/* Fim das images */
+
 
 .title-1{
     width: 80%;
@@ -146,5 +152,14 @@ text-align: center;
    
 
     color: var(--corTres);
+    text-align: center;
+}
+
+.description-1{
+    width: 90%;
+    margin: 20px auto ;
+    font-family: Changa, Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+
     text-align: center;
 }
