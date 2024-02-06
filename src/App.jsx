@@ -37,6 +37,7 @@ function App() {
             </div>
           </div>
         </div>
+        <div className="svg"></div>
       </header>
 
       <main>
