@@ -52,7 +52,7 @@
     margin: auto;
 }
 
-.info h4, h3{
+.info > h4, .info > h3{
     color: white;
     margin-top: 2em;
 }

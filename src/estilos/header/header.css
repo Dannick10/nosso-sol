@@ -1,3 +1,5 @@
+
+
 header{
     z-index: -1;
     position: relative;
@@ -92,7 +94,7 @@ img{
 
 .subtitle p{
 text-align: center;
-font-family: Changa Font, 'arial';
+font-family:  'arial';
 font-size: 1.2em;
 text-align: center;
 }
@@ -163,3 +165,92 @@ text-align: center;
 
     text-align: center;
 }
+
+/* Carrossel */
+
+.c-depoimentos{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D9D9D9;
+    
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.274);
+    width: 90%;
+    height: 300px;
+
+    margin: auto;
+    border-radius: 25px;
+
+    margin-top: 60px;
+
+    background-image: url(../../img/sun.svg);
+    background-position: right bottom;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+
+
+.d1 .img{
+    width: 100px; height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px 50% 50% ;
+}
+
+
+.photo-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.name-carrossel{
+    
+    margin-right: 60px;
+}
+
+.name-carrossel h3{
+    font-family: Changa Font, Arial;
+    font-size: 1.5em;
+    color: var(--corTres);
+}
+
+.name-carrossel p{
+    color: #000;
+    text-align: center;
+}
+
+.line-card{
+    margin-top: 10px;   
+}
+
+.c-depoimentos .carrosel-descricao{
+    font-weight: 600;
+    width: 90%;
+    margin: 10px auto;
+    line-height: 20px;
+}
+
+.carrosel-descricao::before{
+    position: relative;
+    top: 5px;
+    content: '"';
+    font-size: 1.9em;
+    line-height: -10px;
+    color: var(--corDois);
+    
+}
+
+.carrosel-descricao::after{
+    content: '"';
+    font-size: 1.9em;
+    position: relative;
+    top: 5px;
+    color: var(--corDois);
+}
+
+
+
+
+
