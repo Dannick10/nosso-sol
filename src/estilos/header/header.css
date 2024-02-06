@@ -136,3 +136,15 @@ text-align: center;
 .card-1:hover, .card-2:hover{
     scale: 1.05;
 }
+
+
+.title-1{
+    width: 80%;
+    margin: auto;
+    font-family: Changa One,Arial, Helvetica, sans-serif;
+    font-size: 1.9em;
+   
+
+    color: var(--corTres);
+    text-align: center;
+}

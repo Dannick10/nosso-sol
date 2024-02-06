@@ -51,7 +51,11 @@ function App() {
 
       <section className='info_enegy'>
         
-          <h2>VOCÊ GERA A SUA PRÓPRIA ENERGIA, PAGA MENOS TARIFAS E SOBRA MAIS DINHEIRO NO SEU BOLSO.</h2>
+         
+            <h2 className='title-1'>VOCÊ GERA A SUA PRÓPRIA ENERGIA, PAGA MENOS TARIFAS E SOBRA MAIS DINHEIRO NO SEU BOLSO<span>.</span></h2>
+
+            p.
+          
       
       </section>
 
