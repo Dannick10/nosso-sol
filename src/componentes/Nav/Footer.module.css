@@ -4,7 +4,6 @@
     font-family: Changa, Arial, Helvetica, sans-serif;
     align-items: center;
 
-    width: 100vw;
     height: auto;
     padding-bottom: 17px;
     
@@ -52,7 +51,12 @@
     margin: auto;
 }
 
-.info > h4, .info > h3{
+.info > h4{
+    color: white;
+    margin-top: 2em;
+}
+
+.social > h3{
     color: white;
     margin-top: 2em;
 }

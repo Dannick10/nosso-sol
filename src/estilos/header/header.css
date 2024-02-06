@@ -176,7 +176,7 @@ text-align: center;
 
 .c-depoimentos{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #D9D9D9;
+    background-color: #e2e2e2;
     
     box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.274);
     width: 90%;
@@ -187,20 +187,23 @@ text-align: center;
 
     margin-top: 60px;
 
-    background-image: url(../../img/sun.svg);
-    background-position: right bottom;
-    background-size: 100px;
-    background-repeat: no-repeat;
+    
+
+    padding: 10px;
 }
 
 
 
 .d1 .img{
+    position: relative;
+    margin-left: 20px;
     width: 100px; height: 100px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 25px 50% 50% ;
+    border-radius: 50% ;
+    border: 3px solid var(--corTres);
+    
 }
 
 
