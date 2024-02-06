@@ -13,6 +13,8 @@ import Felipe from "./img/Felipe.webp";
 //Componentes
 import Nav from "./componentes/Nav/Nav";
 import Footer from "./componentes/Nav/Footer";
+import Card from "./componentes/card";
+import {Swiper, SwiperSlide} from 'swiper/react'
 
 function App() {
   // header arrow para scrollar pro primeiro topico
@@ -37,6 +39,7 @@ function App() {
   }
  
   // [FIM] botao pra voltar pra cima
+
 
   return (
     <>
@@ -104,97 +107,47 @@ function App() {
           </p>
         </section>
 
-        <section className="c-depoimentos">
-          <div className="d1">
-            <div className="photo-name">
-              <span
-                className="img"
-                style={{
-                  backgroundImage:
-                    "url(https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVzc29hfGVufDB8fDB8fHwy)",
-                }}
-              ></span>
-              <div className="name-carrossel">
-                <h3>Júlia Ramos</h3>
-                <p>cliente real</p>
-              </div>
-            </div>
-
-            <hr className="line-card" />
-
-            <p className="carrosel-descricao">
-              Para quem está considerando adotar a energia solar, eu não poderia
+        <Swiper
+        slidesPerView={1}
+        pagination={{ clickable: true}}
+        navigation
+        >
+          <SwiperSlide>
+          <Card 
+        img='https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVzc29hfGVufDB8fDB8fHwy' 
+        nome='Júlia Ramos'
+        info='Para quem está considerando adotar a energia solar, eu não poderia
               recomendar o suficiente. É uma decisão que não apenas beneficia o
               meio ambiente, mas também o seu bolso a longo prazo. Estou muito
               feliz por ter feito essa escolha e mal posso esperar para ver os
-              benefícios contínuos nos próximos anos.
-            </p>
-          </div>
+              benefícios contínuos nos próximos anos.'/>
+          </SwiperSlide>
 
+          <SwiperSlide>
+            
+          <Card 
+        img={Felipe} 
+        nome='Felipe Oliveira' 
+        info='Estou extremamente satisfeito por ter feito essa decisão e estou
+        ansioso para colher os frutos nos próximos anos. A mudança para a
+        energia solar não só alinhou minha casa com práticas mais
+        sustentáveis, mas também resultou em economias significativas em
+        minhas despesas com energia. Mal posso esperar para testemunhar os
+        benefícios contínuos desta decisão consciente.'
+        />
+        
+          </SwiperSlide>
+
+          <SwiperSlide>
+          <Card 
+        img={Luciana} 
+        nome='Luciana Santos'
+        info='Para quem está pensando em adotar a energia solar, eu não posso enfatizar o suficiente o quão gratificante foi para mim. Essa decisão não só beneficia o meio ambiente, mas também tem um impacto financeiro duradouro. Estou incrivelmente feliz por ter tomado esse caminho e estou ansiosa para experimentar os benefícios contínuos nos próximos anos. A transição para a energia solar foi uma escolha inteligente e recompensadora em todos os aspectos.'
+        />
+          </SwiperSlide>
           
-        </section>
-
-        <section className="c-depoimentos">
-         
-         <div className="d1">
-           <div className="photo-name">
-             <span
-               className="img"
-               style={{
-                 backgroundImage:
-                   `url(${Luciana})`,
-               }}
-             ></span>
-
-             <div className="name-carrossel">
-               <h3>Luciana Santos</h3>
-               <p>cliente real</p>
-             </div>
-               
-
-           </div>
-
-           <hr className="line-card"/>
-
-           <p className="carrosel-descricao">Para quem está pensando em adotar a energia solar, eu não posso enfatizar o suficiente o quão gratificante foi para mim. Essa decisão não só beneficia o meio ambiente, mas também tem um impacto financeiro duradouro. Estou incrivelmente feliz por ter tomado esse caminho e estou ansiosa para experimentar os benefícios contínuos nos próximos anos. A transição para a energia solar foi uma escolha inteligente e recompensadora em todos os aspectos.</p>
-         </div>
-
-         
-       </section>
-
-       <section className="c-depoimentos">
-         
-         <div className="d1">
-           <div className="photo-name">
-             <span
-               className="img"
-               style={{
-                 backgroundImage:
-                   `url(${Felipe})`,
-               }}
-             ></span>
-
-             <div className="name-carrossel">
-               <h3>
-Felipe Oliveira</h3>
-               <p>cliente real</p>
-             </div>
-               
-
-           </div>
-
-           <hr className="line-card"/>
-
-            <p className="carrosel-descricao">
-              Estou extremamente satisfeito por ter feito essa decisão e estou
-              ansioso para colher os frutos nos próximos anos. A mudança para a
-              energia solar não só alinhou minha casa com práticas mais
-              sustentáveis, mas também resultou em economias significativas em
-              minhas despesas com energia. Mal posso esperar para testemunhar os
-              benefícios contínuos desta decisão consciente.
-            </p>
-          </div>
-        </section>
+        </Swiper>
+      
 
         {backToTop && (
           <div
