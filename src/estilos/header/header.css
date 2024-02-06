@@ -195,6 +195,7 @@ text-align: center;
     background-size: 100px;
     background-repeat: no-repeat;
     overflow: hidden;
+
 }
 
 
@@ -241,6 +242,7 @@ text-align: center;
     margin: 10px auto;
     line-height: 20px;
     overflow-y: scroll;
+ 
 }
 
 .carrosel-descricao::before{
