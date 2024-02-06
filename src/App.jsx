@@ -15,9 +15,28 @@ import Nav from "./componentes/Nav/Nav";
 import Footer from "./componentes/Nav/Footer";
 
 function App() {
+  // header arrow para scrollar pro primeiro topico
   function scrollHeader() {
     window.scroll(0, 300);
   }
+
+  // [INCIO]  botao pra voltar pra cima
+  const [backToTop, setBackToTop] = useState(null);
+
+  window.addEventListener("scroll", () => {
+
+    if (window.scrollY >= 650) {
+      setBackToTop(1);
+    } else if(window.scrollY <= 189)(
+      setBackToTop(null)
+    )
+  });
+
+  const handleBackToTop=()=>{
+    window.scroll(0 ,0)
+  }
+ 
+  // [FIM] botao pra voltar pra cima
 
   return (
     <>
@@ -159,15 +178,24 @@ function App() {
             <hr className="line-card" />
 
             <p className="carrosel-descricao">
-              Estou extremamente satisfeito por ter feito
-              essa decisão e estou ansioso para colher os frutos nos próximos
-              anos. A mudança para a energia solar não só alinhou minha casa com
-              práticas mais sustentáveis, mas também resultou em economias
-              significativas em minhas despesas com energia. Mal posso esperar
-              para testemunhar os benefícios contínuos desta decisão consciente.
+              Estou extremamente satisfeito por ter feito essa decisão e estou
+              ansioso para colher os frutos nos próximos anos. A mudança para a
+              energia solar não só alinhou minha casa com práticas mais
+              sustentáveis, mas também resultou em economias significativas em
+              minhas despesas com energia. Mal posso esperar para testemunhar os
+              benefícios contínuos desta decisão consciente.
             </p>
           </div>
         </section>
+
+        {backToTop && (
+          <div
+            className="arrow-up"
+            onClick={handleBackToTop}
+          >
+            <i class="fa-solid fa-arrow-up"></i>
+          </div>
+        )}
       </main>
 
       <Footer />
