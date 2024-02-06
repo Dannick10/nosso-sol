@@ -25,6 +25,7 @@ function App() {
             <div className='svg_painel'><img src={header_painel} alt="imagem de um painel soalr" /></div>
           </div>
         </div>
+        <div className="svg"></div>
       </header>
      
       <main>
