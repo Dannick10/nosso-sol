@@ -7,6 +7,7 @@ import header_painel from "./img/header_painel.svg";
 import header_world from "./img/header_world.svg";
 import Reactangle from "./img/Rectangle.svg";
 import sun from "./img/sun.svg"
+import Luciana from "./img/Luciana.webp"
 
 //Componentes
 import Nav from "./componentes/Nav/Nav";
@@ -95,7 +96,38 @@ function App() {
 
             <p className="carrosel-descricao">Para quem está considerando adotar a energia solar, eu não poderia recomendar o suficiente. É uma decisão que não apenas beneficia o meio ambiente, mas também o seu bolso a longo prazo. Estou muito feliz por ter feito essa escolha e mal posso esperar para ver os benefícios contínuos nos próximos anos.</p>
           </div>
+
+          
         </section>
+
+        <section className="c-depoimentos">
+         
+         <div className="d1">
+           <div className="photo-name">
+             <span
+               className="img"
+               style={{
+                 backgroundImage:
+                   `url(${Luciana})`,
+               }}
+             ></span>
+
+             <div className="name-carrossel">
+               <h3>Luciana Santos</h3>
+               <p>cliente real</p>
+             </div>
+               
+
+           </div>
+
+           <hr className="line-card"/>
+
+           <p className="carrosel-descricao">Para quem está pensando em adotar a energia solar, eu não posso enfatizar o suficiente o quão gratificante foi para mim. Essa decisão não só beneficia o meio ambiente, mas também tem um impacto financeiro duradouro. Estou incrivelmente feliz por ter tomado esse caminho e estou ansiosa para experimentar os benefícios contínuos nos próximos anos. A transição para a energia solar foi uma escolha inteligente e recompensadora em todos os aspectos.</p>
+         </div>
+
+         
+       </section>
+
       </main>
 
       <Footer />
