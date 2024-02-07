@@ -7,6 +7,7 @@ import header_painel from "./img/header_painel.svg";
 import header_world from "./img/header_world.svg";
 import Luciana from "./img/Luciana.webp";
 import Felipe from "./img/Felipe.webp";
+import Sant from './img/cliente-depoimento.jpg'
 
 //Componentes
 import Nav from "./componentes/Nav/Nav";
@@ -168,7 +169,7 @@ function App() {
 
         </section>
 
-        <aside>
+        {/* <aside>
             <Swiper
             modules={[EffectFade]}
             effect={'fade'}
@@ -202,7 +203,7 @@ function App() {
             <div className="btn_contact">
               <button><div>Fale com um de nossos representantes</div>  <i class="fa-brands fa-whatsapp"></i></button>
             </div>
-        </aside>
+        </aside> */}
       
       
 
