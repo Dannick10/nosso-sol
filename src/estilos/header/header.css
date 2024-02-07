@@ -283,6 +283,7 @@ text-align: center;
 /* Botao pra voltar pro top */
 
 .arrow-up{
+    z-index: 1;
     user-select: none;
     position: fixed;
     bottom: 15px;

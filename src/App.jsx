@@ -142,7 +142,7 @@ function App() {
           <Card 
         img={Luciana} 
         nome='Luciana Santos'
-        info='Para quem está pensando em adotar a energia solar, eu não posso enfatizar o suficiente o quão gratificante foi para mim. Essa decisão não só beneficia o meio ambiente, mas também tem um impacto financeiro duradouro. Estou incrivelmente feliz por ter tomado esse caminho e estou ansiosa para experimentar os benefícios contínuos nos próximos anos. A transição para a energia solar foi uma escolha inteligente e recompensadora em todos os aspectos.'
+        info='Estou incrivelmente feliz por ter tomado esse caminho e estou ansiosa para experimentar os benefícios contínuos nos próximos anos. A transição para a energia solar foi uma escolha inteligente e recompensadora em todos os aspectos.'
         />
           </SwiperSlide>
           
