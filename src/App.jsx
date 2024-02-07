@@ -8,6 +8,9 @@ import header_world from "./img/header_world.svg";
 import Luciana from "./img/Luciana.webp";
 import Felipe from "./img/Felipe.webp";
 import Sant from './img/cliente-depoimento.jpg'
+import Obraum from './img/Obraum.jpg'
+import Obradois from './img/Obradois.jpg'
+import Obratres from './img/Obratres.jpg'
 
 //Componentes
 import Nav from "./componentes/Nav/Nav";
@@ -169,15 +172,16 @@ function App() {
 
         </section>
 
-        {/* <aside>
+         <aside>
             <Swiper
             modules={[EffectFade]}
-            effect={'fade'}
+            effect='fade'
             centeredSlides={true}
             autoplay={{
               delay: 2000,
               disableOnInteraction: false,
             }}
+            
             >
               <SwiperSlide>
                 <div className="aside_carousel">
@@ -203,7 +207,7 @@ function App() {
             <div className="btn_contact">
               <button><div>Fale com um de nossos representantes</div>  <i class="fa-brands fa-whatsapp"></i></button>
             </div>
-        </aside> */}
+        </aside> 
       
       
 
