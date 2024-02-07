@@ -9,12 +9,18 @@ import Reactangle from "./img/Rectangle.svg";
 import sun from "./img/sun.svg";
 import Luciana from "./img/Luciana.webp";
 import Felipe from "./img/Felipe.webp";
+import Obraum from "./img/Obraum.jpg"
+import Obradois from "./img/Obradois.jpg"
+import Obratres from "./img/Obratres.jpg"
 
 //Componentes
 import Nav from "./componentes/Nav/Nav";
 import Footer from "./componentes/Nav/Footer";
 import Card from "./componentes/card";
+
+//Library
 import {Swiper, SwiperSlide} from 'swiper/react'
+import {Autoplay, EffectFade} from 'swiper/modules'
 
 function App() {
   // header arrow para scrollar pro primeiro topico
@@ -159,6 +165,42 @@ function App() {
 
         </section>
 
+        <aside>
+            <Swiper
+            modules={[EffectFade]}
+            effect={'fade'}
+            centeredSlides={true}
+            autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
+            >
+              <SwiperSlide>
+                <div className="aside_carousel">
+                  <img src={Obraum} alt="Imagem de obras" />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="aside_carousel">
+                  <img src={Obradois} alt="Imagem de obras" />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="aside_carousel">
+                  <img src={Obratres} alt="Imagem de obras" />
+                </div>
+              </SwiperSlide>
+
+
+            </Swiper>
+
+            <div className="btn_contact">
+              <button><div>Fale com um de nossos representantes</div>  <i class="fa-brands fa-whatsapp"></i></button>
+            </div>
+        </aside>
+      
       
 
         {backToTop && (
