@@ -115,10 +115,12 @@ text-align: center;
 }
 
 .line{
+    display: block;
+    margin: auto;
     margin-top: 2em;
     margin-bottom: 2em;
     border: 1px solid #3195CC;
-    width: 60%;
+    width: 80%;
 }
 
 /* Imagens */
@@ -197,7 +199,7 @@ text-align: center;
     margin: auto;
     border-radius: 25px;
 
-    margin-top: 60px;
+    margin-top: 10px;
 
     
 
@@ -228,18 +230,18 @@ text-align: center;
     
 }
 
-.name-carrossel{
+.name-carrosel{
     
     margin-right: 20px;
 }
 
-.name-carrossel h3{
+.name-carrosel h3{
     font-family: Changa Font, Arial;
     font-size: 1.5em;
     color: var(--corTres);
 }
 
-.name-carrossel p{
+.name-carrosel p{
     color: #000;
     text-align: center;
 }
@@ -279,6 +281,88 @@ text-align: center;
     top: 5px;
     color: var(--corDois);
 }
+
+
+/* section simular */
+
+.simular-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #000 url(../../img/usina-solar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    background-attachment: fixed;
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 50px 20px;
+    height: auto;
+
+   
+}
+
+.simular-container h1{
+    font-family: Changa One, Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 2.2em;
+    text-align: center;
+    color: var(--corquatro);
+    width: 95%;
+}
+
+.simular-container p{
+    text-align: center;
+    font-family: Changa, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+
+    width: 85%;
+    margin-top: 20px;
+    color: white;
+}
+
+
+.simular-container button{
+    font-size: 1.5em;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 12px;
+    padding: 15px 35px;
+    margin-top: 20px;
+
+   
+    background-image: linear-gradient(to right, #2CB742, #137021);
+    color: white;
+
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.simular-container button:active{
+    scale: 1.05;
+    background-image: linear-gradient(to right, #158828, #157421);
+}
+
+
+
+.simular-container button > i{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Botao pra voltar pro top */
 

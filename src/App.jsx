@@ -146,6 +146,19 @@ function App() {
           </SwiperSlide>
           
         </Swiper>
+
+        <span className="line"></span>
+          
+       
+
+        <section className="simular-container">
+              <h1>FUJA DAS GRANDES TAXAS E POSSIVÉIS QUEDAS DE ENERGIA.</h1>
+              <p>Se você têm o seu próprio negócio ou deseja adquirir painéis para sua casa, simule agora um orçamento:</p>
+              <button className="btn-simular">SIMULAR <i class="fa-solid fa-arrow-right"></i></button>
+
+
+        </section>
+
       
 
         {backToTop && (
