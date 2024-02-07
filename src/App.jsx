@@ -132,8 +132,7 @@ function App() {
         ansioso para colher os frutos nos próximos anos. A mudança para a
         energia solar não só alinhou minha casa com práticas mais
         sustentáveis, mas também resultou em economias significativas em
-        minhas despesas com energia. Mal posso esperar para testemunhar os
-        benefícios contínuos desta decisão consciente.'
+        minhas despesas com energia.'
         />
         
           </SwiperSlide>
