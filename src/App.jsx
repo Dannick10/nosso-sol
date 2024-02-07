@@ -5,10 +5,9 @@ import "./estilos/header/header.css";
 //imgs
 import header_painel from "./img/header_painel.svg";
 import header_world from "./img/header_world.svg";
-import Reactangle from "./img/Rectangle.svg";
-import sun from "./img/sun.svg";
 import Luciana from "./img/Luciana.webp";
 import Felipe from "./img/Felipe.webp";
+import Sant from './img/cliente-depoimento.jpg'
 
 //Componentes
 import Nav from "./componentes/Nav/Nav";
@@ -142,6 +141,14 @@ function App() {
         img={Luciana} 
         nome='Luciana Santos'
         info='Estou incrivelmente feliz por ter tomado esse caminho e estou ansiosa para experimentar os benefícios contínuos nos próximos anos. A transição para a energia solar foi uma escolha inteligente e recompensadora em todos os aspectos.'
+        />
+          </SwiperSlide>
+
+          <SwiperSlide>
+          <Card 
+        img={Sant} 
+        nome='Santiago S.'
+        info='Desde que instalei os painéis solares em minha casa, minha vida mudou para melhor em tantos aspectos. Além de estar fazendo minha parte para o meio ambiente, estou economizando uma quantia significativa de dinheiro a cada mês.'
         />
           </SwiperSlide>
           
