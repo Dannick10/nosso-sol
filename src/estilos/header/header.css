@@ -290,11 +290,7 @@ text-align: center;
     flex-direction: column;
     align-items: center;
 
-    background: #000 url(../../img/usina-solar.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center right;
-    background-attachment: fixed;
+    background: var(--corTres);
 
     margin-top: 30px;
     margin-bottom: 20px;

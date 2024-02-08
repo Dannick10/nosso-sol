@@ -7,10 +7,10 @@ import header_painel from "./img/header_painel.svg";
 import header_world from "./img/header_world.svg";
 import Luciana from "./img/Luciana.webp";
 import Felipe from "./img/Felipe.webp";
-import Sant from './img/cliente-depoimento.jpg'
-import Obraum from './img/Obraum.jpg'
-import Obradois from './img/Obradois.jpg'
-import Obratres from './img/Obratres.jpg'
+import Sant from "./img/cliente-depoimento.jpg";
+import Obraum from "./img/Obraum.jpg";
+import Obradois from "./img/Obradois.jpg";
+import Obratres from "./img/Obratres.jpg";
 
 //Componentes
 import Nav from "./componentes/Nav/Nav";
@@ -18,8 +18,8 @@ import Footer from "./componentes/Nav/Footer";
 import Card from "./componentes/card";
 
 //Library
-import {Swiper, SwiperSlide} from 'swiper/react'
-import {Autoplay, EffectFade} from 'swiper/modules'
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, EffectFade } from "swiper/modules";
 
 function App() {
   // header arrow para scrollar pro primeiro topico
@@ -31,20 +31,16 @@ function App() {
   const [backToTop, setBackToTop] = useState(null);
 
   window.addEventListener("scroll", () => {
-
     if (window.scrollY >= 650) {
       setBackToTop(1);
-    } else if(window.scrollY <= 189)(
-      setBackToTop(null)
-    )
+    } else if (window.scrollY <= 189) setBackToTop(null);
   });
 
-  const handleBackToTop=()=>{
-    window.scroll(0 ,0)
-  }
- 
-  // [FIM] botao pra voltar pra cima
+  const handleBackToTop = () => {
+    window.scroll(0, 0);
+  };
 
+  // [FIM] botao pra voltar pra cima
 
   return (
     <>
@@ -113,103 +109,109 @@ function App() {
         </section>
 
         <Swiper
-        slidesPerView={1}
-        pagination={{ clickable: true}}
-        navigation
+          slidesPerView={1}
+          pagination={{ clickable: true }}
+          navigation
         >
           <SwiperSlide>
-          <Card 
-        img='https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVzc29hfGVufDB8fDB8fHwy' 
-        nome='Júlia Ramos'
-        info='Para quem está considerando adotar a energia solar, eu não poderia
+            <Card
+              img="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVzc29hfGVufDB8fDB8fHwy"
+              nome="Júlia Ramos"
+              info="Para quem está considerando adotar a energia solar, eu não poderia
               recomendar o suficiente. É uma decisão que não apenas beneficia o
               meio ambiente, mas também o seu bolso a longo prazo. Estou muito
               feliz por ter feito essa escolha e mal posso esperar para ver os
-              benefícios contínuos nos próximos anos.'/>
+              benefícios contínuos nos próximos anos."
+            />
           </SwiperSlide>
 
           <SwiperSlide>
-            
-          <Card 
-        img={Felipe} 
-        nome='Felipe Oliveira' 
-        info='Estou extremamente satisfeito por ter feito essa decisão e estou
+            <Card
+              img={Felipe}
+              nome="Felipe Oliveira"
+              info="Estou extremamente satisfeito por ter feito essa decisão e estou
         ansioso para colher os frutos nos próximos anos. A mudança para a
         energia solar não só alinhou minha casa com práticas mais
         sustentáveis, mas também resultou em economias significativas em
-        minhas despesas com energia.'
-        />
-        
+        minhas despesas com energia."
+            />
           </SwiperSlide>
 
           <SwiperSlide>
-          <Card 
-        img={Luciana} 
-        nome='Luciana Santos'
-        info='Estou incrivelmente feliz por ter tomado esse caminho e estou ansiosa para experimentar os benefícios contínuos nos próximos anos. A transição para a energia solar foi uma escolha inteligente e recompensadora em todos os aspectos.'
-        />
+            <Card
+              img={Luciana}
+              nome="Luciana Santos"
+              info="Estou incrivelmente feliz por ter tomado esse caminho e estou ansiosa para experimentar os benefícios contínuos nos próximos anos. A transição para a energia solar foi uma escolha inteligente e recompensadora em todos os aspectos."
+            />
           </SwiperSlide>
 
           <SwiperSlide>
-          <Card 
-        img={Sant} 
-        nome='Santiago S.'
-        info='Desde que instalei os painéis solares em minha casa, minha vida mudou para melhor em tantos aspectos. Além de estar fazendo minha parte para o meio ambiente, estou economizando uma quantia significativa de dinheiro a cada mês.'
-        />
+            <Card
+              img={Sant}
+              nome="Santiago S."
+              info="Desde que instalei os painéis solares em minha casa, minha vida mudou para melhor em tantos aspectos. Além de estar fazendo minha parte para o meio ambiente, estou economizando uma quantia significativa de dinheiro a cada mês."
+            />
           </SwiperSlide>
-          
         </Swiper>
 
         <span className="line"></span>
-          
-       
 
         <section className="simular-container">
-              <h1>FUJA DAS GRANDES TAXAS E POSSIVÉIS QUEDAS DE ENERGIA.</h1>
-              <p>Se você têm o seu próprio negócio ou deseja adquirir painéis para sua casa, simule agora um orçamento:</p>
-              <button className="btn-simular">SIMULAR <i class="fa-solid fa-arrow-right"></i></button>
-
-
+          <h1>FUJA DAS GRANDES TAXAS E POSSIVÉIS QUEDAS DE ENERGIA.</h1>
+          <p>
+            Se você têm o seu próprio negócio ou deseja adquirir painéis para
+            sua casa, simule agora um orçamento:
+          </p>
+          <button className="btn-simular">
+            SIMULAR <i class="fa-solid fa-arrow-right"></i>
+          </button>
         </section>
 
-         <aside>
-            <Swiper
+        <aside>
+          <Swiper
             modules={[EffectFade]}
-            effect='fade'
+            effect="fade"
             centeredSlides={true}
             autoplay={{
               delay: 2000,
               disableOnInteraction: false,
             }}
-            
-            >
-              <SwiperSlide>
-                <div className="aside_carousel">
-                  <img src={Obraum} alt="Imagem de obras" />
-                </div>
-              </SwiperSlide>
+          >
+            <SwiperSlide>
+              <div className="aside_carousel">
+                <img
+                  src={Obraum}
+                  alt="Imagem de obras"
+                />
+              </div>
+            </SwiperSlide>
 
-              <SwiperSlide>
-                <div className="aside_carousel">
-                  <img src={Obradois} alt="Imagem de obras" />
-                </div>
-              </SwiperSlide>
+            <SwiperSlide>
+              <div className="aside_carousel">
+                <img
+                  src={Obradois}
+                  alt="Imagem de obras"
+                />
+              </div>
+            </SwiperSlide>
 
-              <SwiperSlide>
-                <div className="aside_carousel">
-                  <img src={Obratres} alt="Imagem de obras" />
-                </div>
-              </SwiperSlide>
+            <SwiperSlide>
+              <div className="aside_carousel">
+                <img
+                  src={Obratres}
+                  alt="Imagem de obras"
+                />
+              </div>
+            </SwiperSlide>
+          </Swiper>
 
-
-            </Swiper>
-
-            <div className="btn_contact">
-              <button><div>Fale com um de nossos representantes</div>  <i class="fa-brands fa-whatsapp"></i></button>
-            </div>
-        </aside> 
-      
-      
+          <div className="btn_contact">
+            <button>
+              <div>Fale com um de nossos representantes</div>{" "}
+              <i class="fa-brands fa-whatsapp"></i>
+            </button>
+          </div>
+        </aside>
 
         {backToTop && (
           <div
