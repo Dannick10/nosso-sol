@@ -206,10 +206,11 @@ function App() {
           </Swiper>
 
           <div className="btn_contact">
-            <button>
-              <div>Fale com um de nossos representantes</div>{" "}
-              <i class="fa-brands fa-whatsapp"></i>
-            </button>
+
+            <h1>Fale com um de nossos representantes</h1>
+            <button className="btn email">a</button>
+            <button className="btn whatsapp">b</button>
+            
           </div>
         </aside>
 

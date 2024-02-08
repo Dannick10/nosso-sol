@@ -321,8 +321,7 @@ text-align: center;
 }
 
 
-.simular-container button, 
-.btn_contact button{
+.simular-container button{
     font-size: 1.5em;
     font-weight: bold;
 
@@ -339,22 +338,20 @@ text-align: center;
     cursor: pointer;
 }
 
-.simular-container button:active,
-.btn_contact button:active{
+.simular-container button:active{
     scale: 1.05;
     background-image: linear-gradient(to right, #158828, #157421);
 
 }
 
-.simular-container button:hover,
-.btn_contact button:hover{
+.simular-container button:hover{
     filter: brightness(120%);
 }
 
-.simular-container button > i,
-.btn_contact button > i{
+.simular-container button > i{
     margin-left: 15px;
 }
+
 
 
 
@@ -404,22 +401,18 @@ text-align: center;
 }
 
 .btn_contact{
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-   font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+
+
+    border: 1px solid red;
+    
 }
 
 .btn_contact button{
+    
+    width: 30%;
     margin: auto;
-    width: 60vw;
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-}
-
-.btn_contact button i{
-    font-size: 1.8em;
 }
 
 
