@@ -172,7 +172,7 @@ function App() {
         </section>
 
         <aside>
-          <Swiper
+         <Swiper
             modules={[EffectFade]}
             effect="fade"
             centeredSlides={true}
