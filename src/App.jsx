@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./index.css";
 import "./estilos/header/header.css";
-import "./estilos/header/responsividade.css"
+import "./estilos/header/responsividade.css";
 
 //imgs
 import header_painel from "./img/header_painel.svg";
@@ -155,7 +155,10 @@ function App() {
           </SwiperSlide>
         </Swiper>
 
-        <span id="simular" className="line"></span>
+        <span
+          id="simular"
+          className="line"
+        ></span>
 
         <section className="simular-container">
           <h1>FUJA DAS GRANDES TAXAS E POSSIVÉIS QUEDAS DE ENERGIA.</h1>
@@ -179,7 +182,10 @@ function App() {
             }}
           >
             <SwiperSlide>
-              <div id="contact" className="aside_carousel">
+              <div
+                id="contact"
+                className="aside_carousel"
+              >
                 <img
                   src={Obraum}
                   alt="Imagem de obras"
@@ -210,10 +216,9 @@ function App() {
             <h1>FALE COM UM DE NOSSOS REPRESENTANTES:</h1>
             <div className="btn-contact">
               <i class="fa-brands fa-whatsapp"></i>
-              
+
               <i class="fa-solid fa-envelope"></i>
             </div>
-            
           </div>
         </aside>
 
@@ -225,6 +230,18 @@ function App() {
             <i class="fa-solid fa-arrow-up"></i>
           </div>
         )}
+
+        <div
+          className="whatsapp"
+          onClick={() =>
+            window.open(
+              "https://api.whatsapp.com/send?phone=5511987440654&text=Ol%C3%A1,%20gostaria%20de%20ter%20um%20pain%C3%A9l%20solar%20na%20minha%20casa/minha%20empresa.",
+              "_blank"
+            )
+          }
+        >
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
       </main>
 
       <Footer />
