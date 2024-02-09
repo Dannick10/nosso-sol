@@ -154,7 +154,7 @@ function App() {
           </SwiperSlide>
         </Swiper>
 
-        <span className="line"></span>
+        <span id="simular" className="line"></span>
 
         <section className="simular-container">
           <h1>FUJA DAS GRANDES TAXAS E POSSIVÉIS QUEDAS DE ENERGIA.</h1>
@@ -178,7 +178,7 @@ function App() {
             }}
           >
             <SwiperSlide>
-              <div className="aside_carousel">
+              <div id="contact" className="aside_carousel">
                 <img
                   src={Obraum}
                   alt="Imagem de obras"

@@ -27,3 +27,6 @@ body{
     background-color: var(--bodyColor);
 }
 
+a{
+    text-decoration: none;
+}

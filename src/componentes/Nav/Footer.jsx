@@ -2,7 +2,7 @@ import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <footer className={styles.footer_container}>
+    <footer id="info" className={styles.footer_container}>
       <div className={styles.brand}>
         <h2>
           NOSSO<span>SOL</span>

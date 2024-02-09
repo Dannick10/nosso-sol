@@ -32,10 +32,18 @@ const Nav = () => {
 
           <div className={styles.menu}>
           
-            <h3> <i class="fa-solid fa-house"></i> INICIO</h3>
-            <h3> <i class="fa-solid fa-phone"></i> CONTATO</h3>
-            <h3> <i class="fa-solid fa-chart-simple"></i> SIMULAR</h3>
-            <h3> <i class="fa-solid fa-chart-simple"></i>  INFORMAÇÕES</h3>
+            <a href="#header">
+              <h3> <i class="fa-solid fa-house"></i> INICIO</h3>
+            </a>
+            <a href="#contact">
+              <h3> <i class="fa-solid fa-phone"></i> CONTATO</h3>
+            </a>
+            <a href="#simular">
+              <h3> <i class="fa-solid fa-chart-simple"></i> SIMULAR</h3>
+            </a>
+            <a href="#info">
+              <h3> <i class="fa-solid fa-chart-simple"></i>  INFORMAÇÕES</h3>
+            </a>
 
           
             <div className={styles.social}>
