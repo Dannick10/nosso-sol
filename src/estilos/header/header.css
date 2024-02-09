@@ -344,7 +344,7 @@ text-align: center;
 
 }
 
-.simular-container button:hover{
+.simular-container button:hover, .btn-contact i:hover{
     filter: brightness(120%);
 }
 
@@ -400,19 +400,49 @@ text-align: center;
     border-radius: 20px;
 }
 
-.btn_contact{
+.contact{
     display: flex;
     flex-direction: column;
-
-
-    border: 1px solid red;
-    
-}
-
-.btn_contact button{
-    
-    width: 30%;
+    width: 80vw;
+    padding-bottom: 25px;
     margin: auto;
+    margin-top: -20px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 35px;
+
+    background-color: var(--corTres);
+
+    border-radius: 0 0 20px 20px;
+
 }
+
+.contact h1{
+    font-family: Changa One, Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: white;
+
+    margin-top: 45px;
+}
+
+.btn-contact{
+    margin-top: 20px;
+}
+
+.btn-contact i{
+    background-color: #137021;
+    color: white;
+    font-size: 1.5em;
+    margin: 0 10px;
+    padding: 20px;
+    
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: all 0.5s;
+    user-select: none;
+}
+
+
 
 

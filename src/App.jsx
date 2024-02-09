@@ -205,11 +205,13 @@ function App() {
             </SwiperSlide>
           </Swiper>
 
-          <div className="btn_contact">
-
-            <h1>Fale com um de nossos representantes</h1>
-            <button className="btn email">a</button>
-            <button className="btn whatsapp">b</button>
+          <div className="contact">
+            <h1>FALE COM UM DE NOSSOS REPRESENTANTES:</h1>
+            <div className="btn-contact">
+              <i class="fa-brands fa-whatsapp"></i>
+              
+              <i class="fa-solid fa-envelope"></i>
+            </div>
             
           </div>
         </aside>
