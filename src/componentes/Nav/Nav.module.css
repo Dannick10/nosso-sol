@@ -1,3 +1,20 @@
+.ResponsivNav{
+    z-index: 4;
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(to bottom, #15435B, #1B5E83);
+    width: 100%;
+    height: 65px;
+
+    box-shadow: 2px -11px 13px 11px rgba(0,0,0,0.75);
+}
+
+
 .nav_container{
     z-index: 4;
     position: fixed;
@@ -8,16 +25,19 @@
     justify-content: space-between;
 
     width: 100vw;
+    max-width: 930px;
     height: 65px;
     background-color: blue;
+    margin: auto;
 
     background: linear-gradient(to bottom, #15435B, #1B5E83);
     
    
-    box-shadow: 2px -11px 13px 11px rgba(0,0,0,0.75);
+    
 
     user-select: none;
 }
+
 
 .nav_container i{
     font-size: 1.7em;
@@ -160,4 +180,59 @@
 
 .social i:hover{
     color: #FDD82E;
+}
+
+
+/* Menu Pc/tablet */
+
+
+.listMenu{
+    display: none;
+    list-style: none;
+    
+}
+
+.listMenu li{
+    font-family: Changa, Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0 15px;
+    cursor: pointer;
+    
+}
+
+.menuSocial{
+    display: none;
+}
+
+
+.divisao{
+    display: none;
+    color: white;
+}
+
+
+.menuSocial i:hover{
+    color: var(--corquatro);
+}
+
+.listMenu li:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (min-width: 770px) {
+    
+
+    .listMenu, .menuSocial, .divisao{
+        display: flex;
+    }
+
+    .nav_container > i{
+        display: none;
+    }
+
+    .brand{
+        font-size: 1.5em;
+    }
+    
 }

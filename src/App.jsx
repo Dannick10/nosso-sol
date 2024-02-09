@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./index.css";
 import "./estilos/header/header.css";
+import "./estilos/header/responsividade.css"
 
 //imgs
 import header_painel from "./img/header_painel.svg";
