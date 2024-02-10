@@ -110,6 +110,7 @@ function App() {
         </section>
 
         <Swiper
+        className="swiper"
           slidesPerView={1}
           pagination={{ clickable: true }}
           navigation

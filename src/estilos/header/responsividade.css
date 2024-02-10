@@ -1,0 +1,90 @@
+
+
+@media screen and (min-width: 800px){
+    .header_container{
+        font-size: 4em;
+        padding: 1.5em 0.7em 0.5em;
+        align-items: center;
+    }
+
+    .header_title{
+        color: white;
+        font-size: 0.88em;
+        width: 10em;
+    }
+
+   .header_svg{
+    right: 20%;
+    
+   }
+
+   .svg_world{
+    right: -3em;
+   }
+
+   #showcase_container, 
+   .info_enegy{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+   }
+
+   #showcase_container h3,
+   .info_enegy .title-1{
+    font-size: 3em;
+   }
+
+   #showcase_container p,
+   .info_enegy .description-1{
+    font-size: 1.5em;
+    width: 70vw;
+    text-align: justify;
+    line-height: 1.2em;
+   }
+
+   .img_cards{
+    width: 80vw;
+    flex-direction: row;
+   }
+
+   .img_cards div{
+    height: 45vh;
+   }
+
+   .info_enegy{
+    padding-top: 3em;
+   }
+
+   .c-depoimentos{
+    width: 68vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   }
+   .carrosel-descricao{
+    padding-top: 3em;
+    padding-bottom: 2em;
+    font-size: 1.08em;
+   }
+
+   .swiper{
+    width: 80vw;
+   }
+
+   .simular-container{
+    height: 70vh;
+    padding: 0;
+    justify-content: space-evenly;
+   }
+
+   .simular-container h1{
+    font-size: 2.8em;
+   }
+
+   .simular-container p{
+    width: 60vw;
+   }
+
+
+}
