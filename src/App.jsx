@@ -9,9 +9,9 @@ import header_world from "./img/header_world.svg";
 import Luciana from "./img/Luciana.webp";
 import Felipe from "./img/Felipe.webp";
 import Sant from "./img/cliente-depoimento.jpg";
-import Obraum from "./img/Obraum.jpg";
-import Obradois from "./img/Obradois.jpg";
-import Obratres from "./img/Obratres.jpg";
+import Obraum from "./img/Obraum.png";
+import Obradois from "./img/Obradois.png";
+import Obratres from "./img/Obratres.png";
 
 //Componentes
 import Nav from "./componentes/Nav/Nav";
