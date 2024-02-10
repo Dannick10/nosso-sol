@@ -120,8 +120,6 @@
     }
 }
 
-
-
 .menu h3{
     font-family: Changa, Arial, Helvetica, sans-serif;
     color: white;
@@ -137,11 +135,14 @@
     
 }
 
-.menu h3:hover{
+
+.menu h3:hover,
+ li:hover{
    scale: 1.1;
 }
 
-.menu h3::before{
+.menu h3::before, 
+li::before{
     content: '';
     position: absolute;
     bottom: -10px;
@@ -150,7 +151,8 @@
    
 }
 
-.menu h3:hover::before{
+.menu h3:hover::before,
+li:hover::before{
     content: '';
     animation-name: hover;
     animation-duration: 0.8s;
@@ -215,9 +217,9 @@
     color: var(--corquatro);
 }
 
-.listMenu li:hover{
-    text-decoration: underline;
-}
+
+
+
 
 
 @media screen and (min-width: 770px) {
