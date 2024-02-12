@@ -110,6 +110,7 @@
    }
 
    
+   
 
    
 
@@ -119,4 +120,14 @@
     .header_title{
         margin-left: 80px;
     }
+
+    .whatsapp{
+        left: 9em;
+        
+   }
+
+   .arrow-up{
+    right: 9em;
+   }
+
 }
