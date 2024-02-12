@@ -70,12 +70,30 @@
 
    .swiper{
     width: 80vw;
+    max-width: 720px;
+    border-radius: 20px;
+    background-position: center center;
+    background-size: contain;
+   }
+
+   .contact{
+    max-width: 720px;
+   }
+
+   .aside_carousel img{
+    
+    max-width: 720px;
    }
 
    .simular-container{
-    height: 70vh;
-    padding: 0;
+
+    padding: 30px;
     justify-content: space-evenly;
+    max-width: 690px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    
    }
 
    .simular-container h1{
@@ -83,8 +101,22 @@
    }
 
    .simular-container p{
-    width: 60vw;
+    width: 60%;
+
    }
 
+   .line{
+    max-width: 680px;
+   }
 
+   
+
+   
+
+}
+
+@media screen and (min-width: 1350px) {
+    .header_title{
+        margin-left: 80px;
+    }
 }
